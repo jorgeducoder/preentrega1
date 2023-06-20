@@ -1,0 +1,276 @@
+/* Pongo el header en la esquina superior derecha*/
+/* y a las listas le saco el estilo y decoracion*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: roboto,sans-serif;
+}
+    /* estilo del header*/
+
+header{
+    background-size: cover;
+    background-color: white;
+   /* position: fixed; no va porque la img le pasa por arriba al menu y no scrolea*/
+    top:0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+header img
+{
+    margin-left: 240px; 
+}
+
+.elmenu
+{ 
+    display: flex;
+    flex-direction: row;
+    font-family: roboto;
+    justify-content: space-around;
+    margin-inline-end: 10px;
+   /* menu volcado a la derecha y el padding lo centra*/
+    padding-right: 300px;
+}
+.elmenu li a
+{
+    color: black;
+    font-weight: bold;
+/* el elemento a en linea lo hace bloque para separarlos con padding */
+    display: block;
+    padding: 20px;
+}
+
+header nav ul li a:hover
+{
+    color: rgb(95, 112, 207);
+}
+
+
+/* trabajando en el main*/
+
+
+
+.imgtxt h1
+
+{
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    padding-top: 10rem;
+    padding-left: 32rem;
+    text-align: center;
+}  
+ .imgtxt p
+ 
+ {
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    padding-top: 20rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    text-align: center;
+ }
+   
+ .imgtxt img
+ {
+     max-width: 100vw;
+     overflow: hidden ;
+ }
+
+ .cuatroiconos
+ {
+    padding: 20px 0px 0px 0px;
+ }
+.cuatroiconos   .i2
+{
+    display: inline-block;
+}
+
+.i1 img:hover
+{
+    cursor: pointer;
+    
+}
+
+.i2
+{
+    padding: 0px 100px 0px 150px;
+}
+
+
+/*FOOTER*/
+
+footer{
+    background-size: cover;
+    background-color: white;
+    width: 100vw;
+}
+.f-pie
+{
+    padding: 40px 0px 0px 0px;
+}
+
+
+Footer p
+{
+    display: inline ;
+    
+}
+#tel
+{
+   margin-top: 10px;
+    margin-left: 60px;
+    font-size: 400;
+    font-weight: bolder;
+}
+#mailt
+{
+    padding-left: 500px;
+    text-decoration: none;
+    font-size: 400;
+    font-weight: bolder;
+    color: black;
+}
+#llugar
+{
+    padding-left: 300px;
+}
+#lugar
+{
+    padding-left: 2px;
+    font-size: 400;
+    font-weight: bolder
+}
+
+
+
+ .redess  ul li 
+ { display: inline-block;}
+
+ .redess ul li a
+ {
+     
+ /* el elemento a en linea lo hace bloque para separarlos con padding */
+     display: block;
+    /* padding: 20px;*/
+ }
+
+.f-enli
+{
+     padding: 30px 20px 30px 670px;
+}
+.l-enli
+{
+     padding: 30px 20px 30px 20px;
+}
+.i-enli
+{
+     padding: 30px 100px 30px 20px;
+}
+
+
+ /* la experiencia html */
+
+ 
+ .img-txtle h2
+
+{
+    color: white;
+    font-size: 4rem;
+    font-style: initial;
+    position: absolute;
+    padding-top: 10rem;
+    padding-left: 40rem;
+    text-align: center;
+}  
+ .img-txtle p
+ 
+ {
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    padding-top: 20rem;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    text-align: center;
+    
+}
+   
+ .img-txtle img
+ {
+    overflow: hidden ;
+ }
+
+ 
+/* LA DEGUSTACION HTML */
+
+.imgtxtld img
+ {
+    overflow: hidden ;
+    opacity: 0.1;
+ }
+.imgtxtld h2
+
+{
+    color: black;
+    font-size: 4rem;
+    font-style: initial;
+    position: absolute;
+    padding: 7rem 0rem 0rem 7rem; 
+    border: 0px 0px 6px ;
+
+}  
+
+.imgtxtld p
+ 
+ {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    padding: 9rem 10rem 0rem 55rem;
+    text-align: center;
+    
+}
+
+/* LA UBICACION HTML */
+
+.t-lau-h
+{
+    color: black;
+    font-size: 32px;
+    font-style: initial;
+   /* position: absolute; no puede ir 
+   se posiciona debajo del footer*/
+    padding-top: 10rem;
+    padding-left: 43rem;
+}
+
+.t-lau-p
+{
+    color: black;
+    font-size: 20px;
+   /* position: absolute; idem*/
+    padding: 2rem 20rem 0rem 25rem;
+    text-align: center; 
+}
+
+/* SOBRE NOSOTROS HTML */
+
+
+/*.v-snos video
+Ambas formas son validas y hacen lo mismo
+{
+      border-style: double;
+      
+}*/
+
+video
+{
+    border: double  black;
+
+}
